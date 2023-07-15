@@ -1,21 +1,7 @@
 <template>
   <div>
     <!-- Navbar -->
-    <nav class="bg-white py-4">
-      <div class="container mx-auto flex justify-between items-center px-4">
-        <!-- Logo -->
-        <div class="mr-2">
-      <img class="h-60 w-[50%]" src="/IMG/LogoMonteCieloGlamping-02.svg" alt="Logo" >
-    </div>
-        <!-- Navigation links -->
-        <ul class="flex space-x-4">
-          <li><a class="text-black font-medium font-montserrat" href="#">Home</a></li>
-          <li><a class="text-black font-medium font-montserrat" href="#">Blog</a></li>
-          <li><a class="text-black font-medium font-montserrat" href="#">Rooms</a></li>
-          <li><a class="text-black font-medium font-montserrat" href="#">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    <NavBar></NavBar>    
 
     <main class="container mx-auto py-8">
       <!-- Hostel images -->
